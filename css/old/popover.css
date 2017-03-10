@@ -1,0 +1,18 @@
+.popover {
+  font-family: 'AvenirLight', 'Open Sans', sans-serif;
+  max-width: 100%;
+  width: 900px;
+}
+.source-div-bg {
+  background-color: #efefef;
+  padding: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.source-div-btn {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15px;
+  margin-top: -18px;
+}

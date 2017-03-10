@@ -1,0 +1,9 @@
+/* also handle selects */
+select:disabled {
+  cursor: not-allowed;
+}
+.btn-dropdown {
+	border: 1px solid #cfcfcf;
+	color: @black;
+	background: @white;
+}

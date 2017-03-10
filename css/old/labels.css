@@ -1,0 +1,6 @@
+.label {
+  color: #000;
+}
+.label.inverse {
+  color: #fff;
+}

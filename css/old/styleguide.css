@@ -1,0 +1,14 @@
+/*#buttons {*/
+pre {
+  padding: 0;
+  white-space: inherit;
+}
+/*}*/
+.anchor {
+  display: block;
+  height: 65px;
+  /*same height as header*/
+  margin-top: -65px;
+  /*same height as header*/
+  visibility: hidden;
+}
