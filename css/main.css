@@ -144,7 +144,15 @@ body {
   padding: 50px; }
 
 .white-jam {
-  background: #ffffff; }
+  background: url(../img/cta-img.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  color: #ffffff; }
 
 .red-cta {
   background: #FF454A;
