@@ -116,6 +116,7 @@ body {
   padding-bottom: 10px; }
 
 #mc_embed_signup {
+  margin-left: 0px !important;
   background: #2f2f2f !important; }
 
 #mce-EMAIL {
