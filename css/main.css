@@ -110,13 +110,12 @@ body {
 
 .footer-ul {
   list-style-type: none;
-  padding: 15px; }
+  padding: 10px 0px; }
 
 .footer-li {
   padding-bottom: 10px; }
 
 #mc_embed_signup {
-  margin-left: 15px;
   background: #2f2f2f !important; }
 
 #mce-EMAIL {
