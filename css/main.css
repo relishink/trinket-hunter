@@ -157,6 +157,9 @@ body {
   max-width: 600px;
   padding-bottom: 30px; }
 
+.top-row {
+  margin-top: 120px; }
+
 /*** card update ***/
 @media only screen and (max-width: 767px) {
   .card {
