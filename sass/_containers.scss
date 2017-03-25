@@ -66,7 +66,6 @@
 
 .white-jam {
 
-
 background: url(../img/cta-img.png) no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -75,8 +74,25 @@ background-size: cover;
 display: table;
 width: 100%;
 margin: 0 auto;
+height: 400px;
 color: $white;
 }
+
+
+.shirt-jam {
+
+background: url(../img/shirt.png) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: table;
+width: 100%;
+height: 400px;
+margin: 0 auto;
+color: $white;
+}
+
 
 .red-cta {
 	background: $primary;
@@ -99,7 +115,13 @@ color: $white;
 	width: 100%
 }
 
+.no-margin {
+	margin: 0px;
+}
 
+.no-padding {
+	padding: 0px;
+}
 /*** card update ***/
 @media only screen and (max-width: 767px) {
   .card {
