@@ -1,0 +1,14 @@
+/*** projct heros **/
+.pbnj-jumbo {
+background: url(../img/move-bg.png) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: table;
+	width: 100%;
+	margin: 0 auto;
+	color: $white;
+	margin-top: -100px;
+	padding-top: 200px;
+}
