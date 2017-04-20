@@ -2448,14 +2448,14 @@ body {
   text-transform: uppercase;
   border: none; }
   .btn-main:hover {
-    background: #3f9542;
+    background: #BF3438;
     color: #ffffff; }
   .btn-main:active {
-    background: #3f9542;
+    background: #BF3438;
     color: #ffffff; }
   .btn-main:focus {
     outline: none;
-    background: #3f9542;
+    background: #BF3438;
     color: #ffffff; }
 
 .btn-white {
@@ -2469,12 +2469,12 @@ body {
   text-transform: uppercase;
   border: none; }
   .btn-white:hover {
-    color: #3f9542; }
+    color: #BF3438; }
   .btn-white:active {
-    color: #3f9542; }
+    color: #BF3438; }
   .btn-white:focus {
     outline: none;
-    background: #3f9542;
+    background: #BF3438;
     color: #ffffff; }
 
 /** hero home **/
@@ -2699,6 +2699,25 @@ p.card-text {
 @media only screen and (max-width: 767px) {
   .about-meal-ul {
     display: block; } }
+/*** careers-header **/
+.careers-jumbo {
+  background: url(../img/careers.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+  margin-top: -100px;
+  padding-top: 400px;
+  height: 800px; }
+
+@media only screen and (max-width: 991px) {
+  .careers-jumbo {
+    height: 400px;
+    padding-top: 200px; } }
 /*** projct heros **/
 .pbnj-jumbo {
   background: url(../img/pbj.png) no-repeat center center;
