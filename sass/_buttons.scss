@@ -1,48 +1,23 @@
 .btn-main {
-    background: $primary;
+    background: #ffffff;
     border-radius: 200px;
     padding: 10px 20px; 
-    color: $white;
+    color: #ffffff;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     border: none;
       &:hover {
-        background: $primary-hover ;
-        color: $white ;
+        background: #ffffff;
+        color: #ffffff ;
       }
       &:active {
-        background: $primary-hover ;
-        color: $white;
+        background: #ffffff;
+        color: #ffffff ;
       }
       &:focus {
-        outline: none;
-        background: $primary-hover ;
-        color: $white;
-      }     
-}
-
-.btn-white {
-    background: $white;
-    border-radius: 4px;
-    padding: 10px 20px; 
-    color: $primary;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: none;
-      &:hover {
-        color: $primary-hover ;
-      }
-      &:active {
-
-        color: $primary-hover ;
-      }
-      &:focus {
-        outline: none;
-        background: $primary-hover ;
-        color: $white;
+        background: #ffffff;
+        color: #ffffff ;
       }     
 }

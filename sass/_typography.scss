@@ -2,7 +2,7 @@ h1 {
 	font-weight: 600;
 	font-size: 50px;
 	margin: 0px;
-
+	color: #848203;
 }
 
 h2 {
@@ -34,70 +34,7 @@ p {
 	font-size: 16px;
 }
 
-.main-p {
-	font-size: 17px;
-}
 
 a {
 	text-decoration: none;
-}
-
-.tags {
-	font-size: 10px;
-	font-weight: 700;
-}
-
-
-/** hero typogophy **/
-
-.white-h1 {
-
-}
-
-.white-h3 {
-	
-}
-
-@media only screen and (max-width: 767px) {
-  h1 {
-    font-size: 28px;
-  }
-}
-
-
-/** footer a href **/
-.footer-a {
-	color: #ffffff;
-	font-size: 14px;
-}
-
-.footer-a:hover {
-	color: #FF454A;
-	text-decoration: none;
-}
-
-/*** typogrophy for the blog jamboreebeedoo ***/
-.fancy-grey {
-	color: #939598;
-	font-family: 'Satisfy', cursive;
-	margin-bottom: 0px;
-}
-
-.chef-h3 {
-	font-weight: 700;
-}
-
-.chef-p {
-	font-size: 14px;
-    color: #939598;
-}
-
-.about-p {
-	color: #939598;
-}
-
-.recipe-label {
-	font-size: 13px;
-	font-weight: 500;
-	color: #FF454A;
 }
