@@ -1,0 +1,23 @@
+a.white-link {
+  color: $white;
+  &:focus,
+  &:hover {
+    color: darken($white, 15%);
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+
+a.btn.btn-main {
+	&:focus,
+  &:hover {
+    color: darken($white, 15%);
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+  }
+}

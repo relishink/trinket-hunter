@@ -1,5 +1,5 @@
 .btn-main {
-    background: #ffffff;
+    background: $primary;
     border-radius: 200px;
     padding: 10px 20px; 
     color: #ffffff;
@@ -8,16 +8,38 @@
     font-weight: 600;
     text-transform: uppercase;
     border: none;
-      &:hover {
-        background: #ffffff;
-        color: #ffffff ;
-      }
+      &:focus,
+      &:hover,
       &:active {
-        background: #ffffff;
-        color: #ffffff ;
+            background: darken($primary, 15%);
+            text-decoration: none;
+            cursor: pointer;
+            outline: none;
+            box-shadow: none;
       }
-      &:focus {
-        background: #ffffff;
-        color: #ffffff ;
-      }     
+}
+
+.btn-white {
+    background: $white;
+    border-radius: 200px;
+    padding: 10px 20px; 
+    color: $primary;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+      &:focus,
+      &:hover,
+      &:active {
+            background: darken($white, 15%);
+            text-decoration: none;
+            cursor: pointer;
+            outline: none;
+            box-shadow: none;
+      }
+}
+
+.btn-lg {
+  padding: 15px 30px;
 }

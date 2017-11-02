@@ -3,3 +3,79 @@
 	background: #ffffff;
 	padding: 50px;
 }
+
+.footer {
+	padding: 40px 100px;
+	background: #8b63aa;
+	background: -webkit-linear-gradient(left, #8b63aa, #75528f);
+	background: -moz-linear-gradient(left, #8b63aa, #75528f);
+	background: -ms-linear-gradient(left, #8b63aa, #75528f);
+	background: -o-linear-gradient(left, #8b63aa, #75528f);
+	background: linear-gradient(to right, #8b63aa, #75528f);
+}
+
+i.footer-insta {
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+    .footer {
+		  text-align: center;
+		  padding: 20px;
+  }
+}
+
+.right-footer {
+	text-align: right;
+}
+
+@media only screen and (max-width: 991px) {
+    .right-footer  {
+	  text-align: center;
+	  padding-top: 100px;
+  }
+}
+
+img.card-img {
+	border-radius: 0px;
+}
+
+.card {
+	-webkit-box-shadow: 0px 15px 27px 6px rgba(235,235,235,1);
+-moz-box-shadow: 0px 15px 27px 6px rgba(235,235,235,1);
+box-shadow: 0px 15px 27px 6px rgba(235,235,235,1);
+border: none;
+}
+
+.section {
+	padding: 50px 100px
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+		padding: 20px 30px
+	} 
+}
+
+
+/*** home hero **/
+.home-hero {
+    background: url(../img/bg.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 0px;
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 991px) {
+    .home-hero {
+    height: 300px;
+    padding-top: 40px;
+    }
+}
